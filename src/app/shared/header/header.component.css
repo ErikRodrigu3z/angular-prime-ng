@@ -1,0 +1,6 @@
+:host ::ng-deep .p-menubar {
+  margin-left: -11px;
+  margin-right: -11px;
+  margin-top: -11px;
+  background: white;
+}

@@ -4,7 +4,8 @@ import { ButtonModule } from 'primeng/button';
 import { MenubarModule } from 'primeng/menubar';
 import { SlideMenuModule } from 'primeng/slidemenu';
 import { PanelMenuModule } from 'primeng/panelmenu';
-
+import { SidebarModule } from 'primeng/sidebar';
+import { MenuModule } from 'primeng/menu';
 
 @NgModule({
   declarations: [],
@@ -13,13 +14,17 @@ import { PanelMenuModule } from 'primeng/panelmenu';
     ButtonModule,
     MenubarModule,
     SlideMenuModule,
-    PanelMenuModule
+    PanelMenuModule,
+    SidebarModule,
+    MenuModule
   ],
   exports: [
     ButtonModule,
     MenubarModule,
     SlideMenuModule,
-    PanelMenuModule
+    PanelMenuModule,
+    SidebarModule,
+    MenuModule
   ]
 })
 export class PrimengModule { }
